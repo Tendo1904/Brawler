@@ -1,0 +1,3 @@
+"D:\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\marvelous.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\marvelous.dir/objects.a @CMakeFiles\marvelous.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\marvelous.dir/objects.a -Wl,--no-whole-archive  -o marvelous.exe -Wl,--out-implib,libmarvelous.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\marvelous.dir\linklibs.rsp
