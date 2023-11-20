@@ -1,8 +1,7 @@
-#include "../inc/.h"
+#include "../inc/characters.h"
 
 AntiHero::AntiHero(std::string name, int32_t hp, int32_t attck, int32_t def, std::string university)
-    :Hero(name,
-        hp, attck, def){
+    :Hero(name,hp, attck, def){
     this->university = university;
 
 }
