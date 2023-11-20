@@ -19,3 +19,26 @@ Hero::Hero() {
     this->def_rt = 1;
     this->hp = 1;
 }
+
+int32_t Hero::GetHp(){
+    return this->hp;
+}
+
+int32_t Hero::GetAttack(){
+    return this->attck_rt;
+}
+
+int32_t Hero::GetDef(){
+    return this->def_rt;
+}
+std::string Hero::GetName(){
+    return this->name;
+}
+
+std::string AntiHero::GetLaugh(){
+    return this->laugh;
+}
+
+std::string AntiHero::GetUniversity(){
+    return this->university;
+}

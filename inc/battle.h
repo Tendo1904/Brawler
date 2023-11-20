@@ -1,9 +1,8 @@
-#ifndef battle.h
+#pragma once
 #include <iostream>
 #include <chrono>
 #include <thread>
 #include "characters.h"
-#endif
 
 class Battle{
 public:

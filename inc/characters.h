@@ -1,9 +1,8 @@
-#ifndef characters.h
+#pragma once
 #include <stdlib.h>
 #include <string>
 #include <iostream>
 #include <cstdint>
-#endif
 
 
 class Hero{
@@ -13,10 +12,10 @@ protected:
     std::string name;
 public:
     int32_t hp;
-    int32_t GetHp(){return hp;}
-    int32_t GetAttack(){return attck_rt;}
-    int32_t GetDef(){return def_rt;}
-    std::string GetName(){return name;}
+    int32_t GetHp();
+    int32_t GetAttack();
+    int32_t GetDef();
+    std::string GetName();
     Hero(std::string, int32_t, int32_t, int32_t);
     Hero();
 };
@@ -26,8 +25,8 @@ protected:
     std::string laugh;
     std::string university;
 public:
-    std::string GetUniversity(){return university;}
-    std::string GetLaugh(){ return laugh;}
+    std::string GetUniversity();
+    std::string GetLaugh();
     AntiHero();
     AntiHero(std::string, int32_t, int32_t, int32_t, std::string);
 };

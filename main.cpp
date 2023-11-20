@@ -1,7 +1,6 @@
-#include "inc/characters.h"
+//#include "inc/characters.h"
 #include "inc/battle.h"
-#include <chrono>
-#include <thread>
+
 
 
 int main() {
