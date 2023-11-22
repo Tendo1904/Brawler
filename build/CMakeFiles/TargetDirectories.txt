@@ -1,0 +1,3 @@
+C:/Users/artem/Some stuff/brawler/build/CMakeFiles/test.dir
+C:/Users/artem/Some stuff/brawler/build/CMakeFiles/edit_cache.dir
+C:/Users/artem/Some stuff/brawler/build/CMakeFiles/rebuild_cache.dir

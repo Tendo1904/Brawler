@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.12)
+set(CMAKE_CXX_COMPILER "C:/msys64/ucrt64/bin/g++.exe")
+set(CMAKE_C_COMPILER "C:/msys64/ucrt64/bin/gcc.exe")
+project(brawler)
+include_directories(inc)
+file(GLOB SOURCES "src/*.cpp")
+add_executable(test main ${SOURCES})
