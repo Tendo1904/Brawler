@@ -26,4 +26,5 @@ void Battle::Victory(Hero one, Hero two){
         std::cout<<one.GetName()<<" has died and "<<two.GetName()<<" was Victorious"<<std::endl;
     }
     std::cout<<"Game Over"<<std::endl;
+    std::this_thread::sleep_for(std::chrono::seconds(10));
 }

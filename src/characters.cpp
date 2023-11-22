@@ -42,3 +42,8 @@ std::string AntiHero::GetLaugh(){
 std::string AntiHero::GetUniversity(){
     return this->university;
 }
+Hero roster[] = {
+    Hero("Thor", 120, 35, 10),
+    Hero("Hulk", 200, 10, 11),
+    Hero(),
+};

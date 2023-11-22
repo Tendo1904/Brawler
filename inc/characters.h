@@ -5,6 +5,8 @@
 #include <cstdint>
 
 
+//extern Hero roster[4];
+
 class Hero{
 protected:
     int32_t attck_rt;
@@ -30,3 +32,5 @@ public:
     AntiHero();
     AntiHero(std::string, int32_t, int32_t, int32_t, std::string);
 };
+
+extern Hero roster[];
