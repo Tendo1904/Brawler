@@ -44,6 +44,6 @@ std::string AntiHero::GetUniversity(){
 }
 Hero roster[] = {
     Hero("Thor", 120, 35, 10),
-    Hero("Hulk", 200, 10, 11),
+    Hero("Hulk", 220, 10, 11),
     Hero(),
 };
